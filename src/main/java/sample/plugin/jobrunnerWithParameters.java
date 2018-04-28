@@ -14,7 +14,7 @@ public class jobrunnerWithParameters extends AbstractMojo {
     @Parameter( property = "triggerJenkins.jenkinsServer", defaultValue = "http://localhost:8080/job/buildFromMavenPlugin/build?delay=0sec" )
     private String jenkinsServer;
 
-	@Parameter( property = "triggerJenkins.jobName", defaultValue = "http://localhost:8080/job/buildFromMavenPlugin/build?delay=0sec" )
+	@Parameter( property = "jobName", defaultValue = "http://localhost:8080/job/buildFromMavenPlugin/build?delay=0sec" )
 	private String jobName;
 
 	@Parameter( property = "triggerJenkins.postFix", defaultValue = "http://localhost:8080/job/buildFromMavenPlugin/build?delay=0sec" )
